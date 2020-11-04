@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config",
+  "version": "0.9.0",
+  "main": "index.js",
+  "repository": "https://github.com/37108/eslint-config.git",
+  "author": "37108 <37108mail@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "check": "yarn check:type && yarn check:lint",
+    "check:type": "tsc -p . --noEmit",
+    "check:lint": "eslint",
+    "check:form": "prettier",
+    "fix": "yarn fix:lint && yarn fix:form",
+    "fix:lint": "eslint",
+    "fix:form": "prettier"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-jest": "^24.1.0"
+  }
+}
