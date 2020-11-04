@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config",
-  "version": "0.9.0",
+  "name": "@37108/eslint-config",
+  "version": "0.9.1",
   "main": "index.js",
   "repository": "https://github.com/37108/eslint-config.git",
   "author": "37108 <37108mail@gmail.com>",
